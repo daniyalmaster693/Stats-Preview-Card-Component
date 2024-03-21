@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #090b1a;
+}
+
+.maincontainer {
+  margin-left: -500px;
+}
+
+.card {
+  background-color: #1c1938;
+  width: 407px;
+  height: 317px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 45px;
+  padding-left: 67px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header h1 {
+  font-family: "Inter";
+  color: #fdfeff;
+  text-align: left;
+  font-weight: 700;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+span {
+  color: #af5fdb;
+}
+
+.subtext {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtext p {
+  color: #acaac3;
+  font-family: "Lexend Deca";
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  width: 80%;
+  line-height: 1.6;
+  word-spacing: 1.5px;
+  margin-bottom: 50px;
+}
+
+.stats {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  width: 50%;
+}
+
+.stats h3 {
+  color: white;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: -8px;
+}
+
+.stats p {
+  color: #acaac3;
+  font-family: "Lexend Deca";
+}
+
+.stat3 h3 {
+  margin-left: 30px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  margin-left: 440px;
+  margin-top: -356px;
+}
+
+.image img {
+  width: 491px;
+  height: 405px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.image::after {
+  content: "";
+  width: 491px;
+  height: 407px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  background: hsla(274, 65%, 42%, 0.605);
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  margin-left: 757px;
+  margin-top: 161.5px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 11px;
+  text-align: center;
+  color: #686868;
+  font-family: "Outfit";
+  margin-bottom: -20px;
+}
+
+a:link {
+  color: #686868;
+}
+
+a:visited {
+  color: #686868;
+}
