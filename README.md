@@ -3,12 +3,12 @@ A basic HTML, CSS challenge from Frontend Mentor. This is the solution to the ch
 
 <h2> Outcome </h2>
 
-<img src="https://i.imgur.com/JvhN6zw.png" alt="The image of the solution to the challenge">
+<img src="https://i.imgur.com/9O2sBGM.png" alt="The image of the solution to the challenge">
 
 <h2> Links </h2>
 
 <li> Link to solution: </li>
-<li> Link to live demo:  https://blaze4884.github.io/Stats-Preview-Card-Component/</li>
+<li> Link to live demo:  </li>
 
 <h2> What have I learned </h2>
 
@@ -20,4 +20,4 @@ A basic HTML, CSS challenge from Frontend Mentor. This is the solution to the ch
 
 <h2> How did I complete this project? </h2>
 
-<p> I started by creating all the HTML elements and assigning them classes. I moved onto the CSS, and started by importing fonts, and adding a background color for the entire webpage. Next, I started to design the card, and spent some time trying to get the small details right (such as padding, margins, font sizes etc). I then moved to styling elements like text, images, and finally the filter for the image Furthermore, I spent some time learning about adding filters to images, and how to get the right color for the filter. I used this knowledge and applied it to the design I was looking to achieve. Overall, this project allowed me to learn some new things, and further improve my vanilla CSS skills. Once I finished, I tested the website on multiple broswers to ensure compattablity between different apps wouldn't affect the design of the website. </p>
+<p> I started by creating all the HTML elements and assigning them classes. I moved onto the CSS, and started by importing fonts, and adding a background color for the entire webpage. Next, I started to design the card, and spent some time trying to get the small details right (such as padding, margins, font sizes etc). I then moved to styling elements like text, images, and finally the filter for the image Furthermore, I spent some time learning about adding filters to images, and how to get the right color for the filter. I used this knowledge and applied it to the design I was looking to achieve. Overall, this project allowed me to learn some new things, and further improve my vanilla CSS skills. Once I finished, I tested the website on multiple broswers, and used the built in device size emulation feature to view what the website would look like on different devices. </p>
